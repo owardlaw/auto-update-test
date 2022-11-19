@@ -16,6 +16,7 @@ const {autoUpdater} = require("electron-updater");
 autoUpdater.logger = log;
 autoUpdater.logger.transports.file.level = 'info';
 log.info('App starting...');
+console.log("new version is available");
 
 //-------------------------------------------------------------------
 // Define the menu
